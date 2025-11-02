@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import MapView from "./components/MapView";
-import SideBar from "./components/SideBar";
+import Sidebar from "./components/SideBar";
 import { fetchEarthquakes } from "./services/earthquakeApi";
 
 export default function App() {
